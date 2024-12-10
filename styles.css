@@ -1,0 +1,88 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #1e88e5;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0px auto;
+        }
+        .video-container video {
+            text-align: center;
+            background-color: #000;
+        }
+        .video-container {
+            width: 100%;
+            max-width: 800px;
+            height: 340px;
+            border: none;
+            border-radius: 10px;
+        }
+        .signup {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .signup h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .signup p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .signup input {
+            padding: 10px;
+            font-size: 1rem;
+            width: 300px;
+            max-width: 80%;
+            margin-bottom: 10px;
+        }
+        .signup button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #1e88e5;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .signup button:hover {
+            background-color: #1565c0;
+        }
+        .sketches {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+        .sketches img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #1e88e5;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer p {
+            margin: 0;
+        }
